@@ -1,0 +1,168 @@
+body{
+	text-align: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+table{
+	table-layout: flex;
+	padding: 5px;
+	margin: 5px;
+}
+h1{
+	font-family: impact;
+	font-size: 80px;
+	color: navy;
+	text-align: center;
+}
+body{
+	background-color: white;
+	justify-content: center;
+    align-items: center;
+}
+p{
+	font-family: impact;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+ul{
+	display: flex;
+	list-style: none;
+	gap: 220px;
+	margin: 2;
+	padding: 2;
+	align-content: right;
+}
+ul li{
+	font-family: impact;
+	font-size: 60px;
+	font-style: bold;
+	color: cornsilk;
+	text-align: center;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	list-style-type: none;
+	padding: 0;
+}
+nav a{
+	text-decoration: none;
+	color: burlywood;
+	font-family: impact, sans-serif;
+	font-size: 50px;
+	padding: 5px;
+	position: relative;
+	transition: color 0.3s ease;
+}
+img{
+	align-content: center;
+	align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #0056b3;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 110px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #003f7f;
+}
+
+main {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+tr {
+	align-content: center;
+}
+
+td {
+	align-content: center;
+}
+
+table td {
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+table img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+table {
+      border-collapse: collapse;
+      width: 60%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+th {
+      background-color: #e0e0e0;
+    }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Gambar */
+table img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  table td {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+

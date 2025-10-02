@@ -1,0 +1,101 @@
+/* Reset dan layout dasar */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0;
+  padding: 10px 0;
+  background-color: #0056b3;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Impact, sans-serif;
+  font-size: 28px;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #003f7f;
+}
+
+/* Tabel */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+/* Gambar dalam tabel */
+table img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Footer dan Main */
+main {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  table td {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
