@@ -14,9 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  justify-content: center;
-    align-items: center;
-
+ 
 }
 
 /* Header */
@@ -229,6 +227,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+
 
 
 
